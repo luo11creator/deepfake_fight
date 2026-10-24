@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">多维盾卫</string>
+    <string name="app_subtitle">AI反诈智能检测系统</string>
+    <string name="navigation_drawer_open">打开菜单</string>
+    <string name="navigation_drawer_close">关闭菜单</string>
+    <string name="nav_header_title">多维盾卫</string>
+    <string name="nav_header_subtitle">Multidimensional Shield</string>
+    <string name="nav_header_desc">导航</string>
+    <string name="action_settings">设置</string>
+
+    <!-- 导航 -->
+    <string name="menu_home">首页仪表盘</string>
+    <string name="menu_video_detect">视频真伪检测</string>
+    <string name="menu_audio_detect">音频真伪检测</string>
+    <string name="menu_text_analyze">文本风险分析</string>
+    <string name="menu_history">检测记录</string>
+
+    <!-- 首页 -->
+    <string name="home_title">多维盾卫</string>
+    <string name="home_status_ready">系统就绪 · 实时防护中</string>
+    <string name="home_quick_scan">开始检测</string>
+    <string name="home_scan_desc">选择检测模式，上传音视频或文本内容</string>
+    <string name="home_video_label">视频检测</string>
+    <string name="home_video_desc">Deepfake换脸识别</string>
+    <string name="home_audio_label">音频检测</string>
+    <string name="home_audio_desc">AI合成语音鉴别</string>
+    <string name="home_text_label">文本分析</string>
+    <string name="home_text_desc">诈骗话术语义识别</string>
+    <string name="home_recent_title">最近检测记录</string>
+    <string name="home_empty_history">暂无检测记录</string>
+
+    <!-- 视频检测 -->
+    <string name="video_title">视频真伪检测</string>
+    <string name="video_subtitle">检测视频中是否存在Deepfake换脸、面部合成等AI伪造痕迹</string>
+    <string name="video_select_file">选择视频文件</string>
+    <string name="video_use_camera">实时摄像头检测</string>
+    <string name="video_upload_hint">支持 MP4、MOV、AVI 格式，最大 100MB</string>
+
+    <!-- 音频检测 -->
+    <string name="audio_title">音频真伪检测</string>
+    <string name="audio_subtitle">检测语音是否为AI合成、声音克隆等深度伪造内容</string>
+    <string name="audio_start_record">开始录音</string>
+    <string name="audio_stop_record">停止录音</string>
+    <string name="audio_select_file">选择音频文件</string>
+    <string name="audio_record_hint">点击按钮录制一段语音进行检测</string>
+
+    <!-- 文本分析 -->
+    <string name="text_title">文本风险分析</string>
+    <string name="text_subtitle">分析对话中是否存在诈骗话术、社交工程学攻击等风险</string>
+    <string name="text_input_hint">请输入或粘贴需要分析的对话文本内容…</string>
+    <string name="text_analyze_btn">开始分析</string>
+    <string name="text_clear_btn">清空文本</string>
+
+    <!-- 检测结果 -->
+    <string name="result_title">检测报告</string>
+    <string name="result_safe">真实</string>
+    <string name="result_suspicious">可疑</string>
+    <string name="result_danger">伪造</string>
+    <string name="btn_save_report">保存报告</string>
+    <string name="btn_report_fraud">举报诈骗</string>
+
+    <!-- 历史记录 -->
+    <string name="history_title">检测记录</string>
+    <string name="history_empty">暂无检测记录\n使用检测功能后，记录将显示在这里</string>
+
+    <!-- 引导页 -->
+    <string name="intro_title_1">多维AI反诈检测</string>
+    <string name="intro_desc_1">视频Deepfake识别 · 音频合成检测 · 文本诈骗分析\n三大AI模型全部端侧运行，保护您的隐私安全</string>
+    <string name="intro_title_2">即录即测 · 离线可用</string>
+    <string name="intro_desc_2">无需网络连接，AI模型在手机本地推理\n录音/拍照/输入文字，3秒快速出结果</string>
+    <string name="intro_title_3">社区互助 · 共同防骗</string>
+    <string name="intro_desc_3">分享防骗经验，曝光新型诈骗手法\n查看技术原理，学习识别AI伪造的方法</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌主色 — 金融高端风（深海军蓝 + 金色点缀） -->
+    <color name="primary">#FF0A2540</color>
+    <color name="primary_dark">#FF06121F</color>
+    <color name="primary_light">#FF14365E</color>
+    <color name="accent">#FFC9A227</color>
+    <color name="accent_light">#FFD4AF37</color>
+
+    <!-- 功能色 -->
+    <color name="success">#FF059669</color>
+    <color name="success_bg">#FFECFDF5</color>
+    <color name="warning">#FFD97706</color>
+    <color name="warning_bg">#FFFFFBEB</color>
+    <color name="danger">#FFDC2626</color>
+    <color name="danger_bg">#FFFEF2F2</color>
+
+    <!-- 背景色 — 深色主题 -->
+    <color name="bg_primary">#FF0B1020</color>
+    <color name="bg_white">#FFFFFFFF</color>
+    <color name="bg_card">#FF161F33</color>
+    <color name="bg_surface">#FF121A2E</color>
+    <color name="bg_divider">#FF2A3B66</color>
+
+    <!-- 文字色 — 浅色（深色主题） -->
+    <color name="text_primary">#FFE5E7EB</color>
+    <color name="text_secondary">#FFA8B0BC</color>
+    <color name="text_hint">#FF6B7280</color>
+    <color name="text_white">#FFFFFFFF</color>
+
+    <!-- 渐变色 -->
+    <color name="gradient_start">#FF0A2540</color>
+    <color name="gradient_end">#FF14365E</color>
+
+    <!-- 保留兼容 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFD4AF37</color>
+    <color name="purple_500">#FF0A2540</color>
+    <color name="purple_700">#FF06121F</color>
+    <color name="teal_200">#FFD4AF37</color>
+    <color name="teal_700">#FFC9A227</color>
+</resources>

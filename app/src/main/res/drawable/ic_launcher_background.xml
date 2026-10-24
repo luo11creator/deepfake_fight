@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 多维盾卫 APP图标背景 — 深蓝渐变 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 深色科技蓝背景 -->
+    <path
+        android:fillColor="#0D1B3E"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- 中心径向渐变模拟 — 用多层半透明圆 -->
+    <path
+        android:fillColor="#151D3D"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+    <path
+        android:fillColor="#1A2550"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+    <!-- 网格线（科技感） -->
+    <path android:fillColor="#00000000" android:pathData="M0,36L108,36" android:strokeWidth="0.5" android:strokeColor="#1A3366" />
+    <path android:fillColor="#00000000" android:pathData="M0,72L108,72" android:strokeWidth="0.5" android:strokeColor="#1A3366" />
+    <path android:fillColor="#00000000" android:pathData="M36,0L36,108" android:strokeWidth="0.5" android:strokeColor="#1A3366" />
+    <path android:fillColor="#00000000" android:pathData="M72,0L72,108" android:strokeWidth="0.5" android:strokeColor="#1A3366" />
+</vector>

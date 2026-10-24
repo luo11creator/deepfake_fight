@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圆形录音按钮：深蓝渐变 + 金色描边 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:angle="135"
+        android:startColor="#0A2540"
+        android:centerColor="#14365E"
+        android:endColor="#1B4A6B" />
+    <stroke android:width="2dp" android:color="#C9A227" />
+</shape>

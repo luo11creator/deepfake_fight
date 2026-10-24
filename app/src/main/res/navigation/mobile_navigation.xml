@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.deepfake_fight.ui.home.HomeFragment"
+        android:label="首页仪表盘"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_video_detect"
+        android:name="com.example.deepfake_fight.ui.video.VideoDetectFragment"
+        android:label="视频真伪检测"
+        tools:layout="@layout/fragment_video_detect" />
+
+    <fragment
+        android:id="@+id/nav_audio_detect"
+        android:name="com.example.deepfake_fight.ui.audio.AudioDetectFragment"
+        android:label="音频真伪检测"
+        tools:layout="@layout/fragment_audio_detect" />
+
+    <fragment
+        android:id="@+id/nav_text_analyze"
+        android:name="com.example.deepfake_fight.ui.text.TextAnalyzeFragment"
+        android:label="文本风险分析"
+        tools:layout="@layout/fragment_text_analyze" />
+
+    <fragment
+        android:id="@+id/nav_multimodal_detect"
+        android:name="com.example.deepfake_fight.ui.multimodal.MultimodalDetectFragment"
+        android:label="多模态融合检测"
+        tools:layout="@layout/fragment_multimodal_detect" />
+
+    <fragment
+        android:id="@+id/nav_agent"
+        android:name="com.example.deepfake_fight.ui.agent.AgentFragment"
+        android:label="反诈智能体"
+        tools:layout="@layout/fragment_agent" />
+
+    <fragment
+        android:id="@+id/nav_call_detect"
+        android:name="com.example.deepfake_fight.ui.call.CallDetectFragment"
+        android:label="通话检测"
+        tools:layout="@layout/fragment_call_detect" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.deepfake_fight.ui.map.MapFragment"
+        android:label="反诈数据地图"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="com.example.deepfake_fight.ui.result.ResultFragment"
+        android:label="检测报告"
+        tools:layout="@layout/fragment_result" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.deepfake_fight.ui.history.HistoryFragment"
+        android:label="检测记录"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.deepfake_fight.ui.settings.SettingsFragment"
+        android:label="设置"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_knowledge"
+        android:name="com.example.deepfake_fight.ui.knowledge.KnowledgeFragment"
+        android:label="反诈知识"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_community"
+        android:name="com.example.deepfake_fight.ui.community.CommunityFragment"
+        android:label="反诈社区"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/nav_post_detail"
+        android:name="com.example.deepfake_fight.ui.community.PostDetailFragment"
+        android:label="帖子详情"
+        tools:layout="@layout/fragment_post_detail" />
+
+    <fragment
+        android:id="@+id/nav_deepfake_demo"
+        android:name="com.example.deepfake_fight.ui.knowledge.DeepfakeDemoFragment"
+        android:label="Deepfake演示"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.deepfake_fight.ui.profile.ProfileFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 多维盾卫 APP图标前景 — 盾牌 + AI网络 + 防护符号 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 盾牌主体 -->
+    <path
+        android:fillColor="#1A56DB"
+        android:pathData="M54,18 L70,24 L70,50 C70,66 62,80 54,84 C46,80 38,66 38,50 L38,24 Z" />
+
+    <!-- 盾牌内部浅色填充 -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M54,22 L67,27 L67,50 C67,64 60,76 54,80 C48,76 41,64 41,50 L41,27 Z" />
+
+    <!-- AI芯片/网络节点 — 中心菱形 -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M54,38 L62,46 L54,54 L46,46 Z" />
+
+    <!-- 左上连接线 -->
+    <path android:fillColor="#00000000" android:pathData="M46,46 L41,41" android:strokeWidth="2" android:strokeColor="#93C5FD" />
+    <!-- 右上连接线 -->
+    <path android:fillColor="#00000000" android:pathData="M62,46 L67,41" android:strokeWidth="2" android:strokeColor="#93C5FD" />
+    <!-- 左下连接线 -->
+    <path android:fillColor="#00000000" android:pathData="M46,46 L41,67" android:strokeWidth="2" android:strokeColor="#93C5FD" />
+    <!-- 右下连接线 -->
+    <path android:fillColor="#00000000" android:pathData="M62,46 L67,67" android:strokeWidth="2" android:strokeColor="#93C5FD" />
+
+    <!-- 顶部节点圆点 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M41,41m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M67,41m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M41,67m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M67,67m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- 底部"AI"文字 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,74 L51,68 L53,74 Z M50,71 L52,71" />
+
+    <!-- 盾牌顶部V形 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,28 L54,34 L58,28"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF" />
+</vector>
