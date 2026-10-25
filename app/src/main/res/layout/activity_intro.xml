@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_ai"
+    android:orientation="vertical">
+
+    <!-- 跳过按钮 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_intro_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingHorizontal="12dp"
+            android:text="跳过"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+    <!-- 引导内容 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager_intro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 指示器 -->
+    <LinearLayout
+        android:id="@+id/layout_intro_dots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <!-- 下一步按钮 -->
+    <Button
+        android:id="@+id/btn_intro_next"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/primary"
+        android:text="下一步"
+        android:textColor="@color/text_white"
+        android:textSize="16sp" />
+</LinearLayout>

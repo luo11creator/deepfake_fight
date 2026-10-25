@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- B站风格轮播图: 背景图 + 底部渐变遮罩 + 文字叠加 -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 背景图片 -->
+        <ImageView
+            android:id="@+id/iv_banner_bg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 底部渐变遮罩 (保证文字可读) -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:background="@drawable/banner_gradient_overlay"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <!-- 文字层 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <TextView
+                android:id="@+id/tv_banner_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:background="@drawable/banner_tag_bg"
+                android:gravity="center"
+                android:paddingHorizontal="8dp"
+                android:text="安全提醒"
+                android:textColor="@color/text_white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_banner_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="AI换脸视频诈骗高发，请警惕陌生视频通话"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:shadowColor="#40000000"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="4" />
+
+            <TextView
+                android:id="@+id/tv_banner_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="了解如何识别Deepfake换脸技术"
+                android:textColor="#CCD0D5"
+                android:textSize="12sp"
+                android:shadowColor="#60000000"
+                android:shadowDx="0"
+                android:shadowDy="0.5"
+                android:shadowRadius="2" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

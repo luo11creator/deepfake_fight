@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 顶部品牌头部渐变：深海军蓝 → 稍亮蓝，135° 层次感（金融高端风） -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="135"
+        android:startColor="#06121F"
+        android:centerColor="#0A2540"
+        android:endColor="#14365E"
+        android:type="linear" />
+</shape>
